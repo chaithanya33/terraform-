@@ -7,7 +7,7 @@ region = "us-east-1"
 
 resource "aws_instance" "label33" {
 tags = {
-Name = "terra-server"
+Name = "terra-server"  #|| for different environments with same code we can use this //Name = "${terraform.workspace}-server"// FOR WORKSPACE CONCEPTS
 }
 
 ami = " "

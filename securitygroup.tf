@@ -1,5 +1,6 @@
 resource "aws_security_group" "my-sg" {   
-name = "chaithu-sg"
+name = "chaithu-sg"  # ||  we can use for for different environments we need to 
+#||change here name = "${terraform.workspace}-sg" 
 description = " it is creted by terraform"
 
 # inbound rules are called ingress and outbound are called egress#
