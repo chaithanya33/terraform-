@@ -19,5 +19,5 @@ count = 2
 output "abc" {
   value = [aws_instance.label33"[0].public_ip, aws_instance.flm[0].privat_ip] 
 
-  #label name of server# to see the particular server details like pucli,private
+  #label name of server# to see the particular server details like public,private ip by the value of indexing value and output name should change for 2 instance details
 
