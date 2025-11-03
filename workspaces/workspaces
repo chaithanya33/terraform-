@@ -6,4 +6,7 @@ COMMANDS IN TERRAFORM WORKSPACE
 4) select  : to jumpt to other workspace
 5) show    : show the name of current workspace
 
+ TO DELETE THE WORKSPACES 
 
+ 1) workspace must be empty
+ 2) we should not be in that workspace
