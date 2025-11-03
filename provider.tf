@@ -1,3 +1,5 @@
+#this is a basic one to create instance 
+
 provider "aws" {
 region = "us-east-1"
 }
