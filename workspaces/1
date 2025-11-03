@@ -1,9 +1,0 @@
-COMMANDS IN TERRAFORM WORKSPACE
-
-1) delete  : delete a workspace
-2) list    :  list the workspaces
-3) new     :  create new workspaces
-4) select  : to jumpt to other workspace
-5) show    : show the name of current workspace
-
-
