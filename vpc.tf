@@ -4,7 +4,7 @@ resource "aws_vpc" "one" {
 tags = {
 Name = "my-vpc" 
 }
-cidr_blocks = "10.0.0.0/16"
+cidr_block = "10.0.0.0/16"
 instance_tenancy = "default"
 enable_dns_hostnames = true
 }
@@ -15,7 +15,7 @@ tags = {
 Name = "subnet-1"
 }
 availability_zone = "us-east-1a"
-cidr_blocks = "10.0.0.0/24"
+cidr_block = "10.0.0.0/24"
 map_public_ip_on_launch = true
 }
 
@@ -26,7 +26,7 @@ tags = {
 Name = "subnet-2"
 }
 availability_zone = "us-east-1b"
-cidr_blocks = "10.0.2.0/24"
+cidr_block = "10.0.2.0/24"
 map_public_ip_on_launch = "true"
 }
 
